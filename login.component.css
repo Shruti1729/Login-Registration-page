@@ -1,0 +1,72 @@
+h2{
+    color: aquamarine;
+    font-family: segoe script;
+    font-weight: bold;
+}
+p{
+    color: white;
+    font-family: Cambria;
+}
+button{
+    color: white;
+    font-family: Cambria;
+    font-weight: bold;
+    font-size: 12pt;
+    background-color:darkcyan;
+    padding: 5px 20px 5px 20px;
+    border-radius: 4px;
+    border-color: white;
+    display: inline-block;
+    cursor: pointer;
+    cursor: hand;
+    size: 15pt;
+}
+input{
+    color: darkblue;
+    font-family: Cambria;
+    padding: 9pt;
+    size: 20pt;
+    border-radius: 10pt;
+    border-color: darkcyan;
+}
+label{
+    color: ivory;
+    display: inline-block;
+    width: 5em;
+    margin: .5em 0;
+    font-weight: bold;
+}
+nav a {
+    padding: 5px 10px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-weight: bold;
+    background-color: mediumseagreen;
+    border-style: solid;
+    border-radius: 4px;
+    border-color: white;
+    size: 5pt;
+  }
+  nav a.active {
+    color: #039be5;
+  }
+  a{
+    color:white;
+    font-family: Cambria;
+    width:5em;
+}
+.bgimg{
+    background-image: linear-gradient(maroon,black);
+    inset-block: 25pt 25pt;
+    margin-top: 20pt;
+    text-align: center;
+    border-radius: 0pt;
+    border: inset;
+    border-color: black;
+    height: 50%;
+    width: 17%;
+    margin-left: 760pt;
+    position: center;
+    padding-bottom: 32.5pt;
+}

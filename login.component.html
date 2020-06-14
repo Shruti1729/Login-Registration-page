@@ -1,0 +1,10 @@
+<div class="bgimg" style="text-align:center">
+  <h2>Login</h2>
+    <form #f="ngForm" (ngSubmit)="onSubmit(f)" novalidate>
+      <input type = "text" [(ngModel)]="inputText" placeholder = "Enter Username" name = "user" id="username"><br><br>
+      <input type = "password" [(ngModel)]="inputText1" placeholder = "Enter Password" name= "pass" id="password"><br><br>
+        <button type="submit">Login</button> 
+          <p>{{msg}}<br>
+        </p>
+    </form>
+</div> 

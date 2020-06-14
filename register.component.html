@@ -1,0 +1,12 @@
+<div class="bgimg" style="text-align:center">
+  <h2>Register</h2>
+    <form #k="ngForm" (ngSubmit)="Submit(k)" novalidate >
+      <input type = "text" [(ngModel)]="inputText" placeholder="Enter Username"name = "user" id="username" ><br><br>
+      <input type = "email" [(ngModel)]="inputText1" placeholder="Enter your Email id"name = "mail" id="email"><br><br>
+      <input type = "password" [(ngModel)]="inputText2" placeholder="Enter a valid password"name= "pass" id="password"><br><br>
+        <button type="submit">Register</button><br>
+          <p>{{reg_message}}<br>
+          </p> 
+    </form>
+</div> 
+  

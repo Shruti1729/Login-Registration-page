@@ -1,0 +1,11 @@
+<div class="bgimg" style="text-align:center">
+  <h2>Details</h2>
+      <form #k="ngForm" (ngSubmit)="bSubmit(k)" novalidate>
+         <input type = "text" [(ngModel)]="inputText" placeholder = "Enter Username" name = "user_det" id="username"><br>
+            <p>
+               <u>Username</u>{{det_user | uppercase}}<br>
+               <u>Email</u>{{det_mail }}<br>
+               <u>Password</u>{{det_pass}}<br>
+            </p> 
+      </form>      
+</div>    
